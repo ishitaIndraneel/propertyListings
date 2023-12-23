@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 const Nav = () => {
   const {pageName, setPageName} = NavData()
     useEffect(()=>{
-      setPageName("Property Listings ")
+      setPageName("Property Listings")
     },[setPageName])
     return (
           <>
